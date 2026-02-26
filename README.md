@@ -4,6 +4,10 @@
 This project is based on Kaggle’s *Titanic - Machine Learning from Disaster* competition.  
 The goal is to predict whether a passenger survived the Titanic shipwreck using machine learning.
 
+<p align="center">
+  <img src="Screenshot 2026-02-26 122210.png" alt="LeaderBoard" width="750"/>
+</p>
+
 🔗 Kaggle Notebook:  
 https://www.kaggle.com/code/rragul2004/titanic-survival-prediction-random-forest
 
