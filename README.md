@@ -1,19 +1,20 @@
-# 🚢 Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction | Kaggle ML Competition
 
 ## 📌 Project Overview
 This project is based on Kaggle’s *Titanic - Machine Learning from Disaster* competition.  
-The goal is to predict whether a passenger survived the Titanic shipwreck using machine learning.
+The objective was to develop a classification model that predicts whether a passenger survived the Titanic shipwreck using structured passenger data.
 
 <p align="center">
   <img src="Screenshot 2026-02-26 122210.png" alt="LeaderBoard" width="750"/>
 </p>
 
-🔗 Kaggle Notebook:  
+
+🔗 **Kaggle Notebook:**  
 https://www.kaggle.com/code/rragul2004/titanic-survival-prediction-random-forest
 
 ---
 
-## 🛠 Tools & Technologies
+## 🛠 Tech Stack
 - Python
 - Pandas
 - NumPy
@@ -22,46 +23,59 @@ https://www.kaggle.com/code/rragul2004/titanic-survival-prediction-random-forest
 
 ---
 
-## 📊 Project Workflow
+## 📊 Problem Statement
+Given passenger attributes such as age, gender, ticket class, fare, and family details, build a machine learning model to predict survival outcomes.
 
-### 1️⃣ Data Cleaning
-- Handled missing values (Age, Embarked, Fare)
-- Dropped Cabin column due to high missing percentage
-- Encoded categorical features (Sex, Embarked)
+---
 
-### 2️⃣ Feature Engineering
-- Selected important features for prediction
-- Applied label encoding
+## 🔎 Data Preprocessing
+- Handled missing values using median and mode imputation
+- Removed high-missing feature (`Cabin`)
+- Encoded categorical features (`Sex`, `Embarked`)
+- Selected relevant features for modeling
 
-### 3️⃣ Model Building
-- Used Random Forest Classifier
+---
+
+## 🤖 Model Development
 - Performed train-validation split
-- Evaluated using accuracy score
+- Trained a Random Forest Classifier
+- Evaluated model performance using accuracy score
+- Generated predictions for Kaggle test dataset
 
 ---
 
 ## 📈 Results
+- **Validation Accuracy:** 82.68%
+- **Kaggle Public Leaderboard Score:** 75.35%
 
-- Validation Accuracy: **82.68%**
-- Kaggle Public Leaderboard Score: **75.35%**
+The difference between validation and public score highlights real-world generalization challenges.
 
 ---
 
 ## 🎯 Key Learnings
-- Importance of data preprocessing
+- Importance of proper data cleaning
 - Feature encoding techniques
-- Model validation vs real-world test performance
-- Avoiding overfitting
+- Model validation vs unseen test data performance
+- Avoiding overfitting in classification models
 
 ---
 
 ## 🚀 Future Improvements
-- Add feature engineering (FamilySize, Title extraction)
+- Feature engineering (Family Size, Title extraction)
 - Hyperparameter tuning
-- Try Logistic Regression and XGBoost
+- Comparison with Logistic Regression and Gradient Boosting models
+- Cross-validation for better generalization
 
 ---
 
+## 👨‍💻 Author
+**Ragul R**  
+Aspiring Data Analyst | Data Scientist  
+B.Tech in Information Technology (2025)
+
+---
+
+⭐ If you found this project useful, feel free to connect with me on LinkedIn.
 ## 👨‍💻 Author
 **Ragul R**  
 Aspiring Data Analyst | Data Scientist  
